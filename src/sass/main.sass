@@ -1,0 +1,45 @@
+@import "reset"
+@import "color"
+@import "typography"
+
+// Main Styling //
+body
+	background: linear-gradient(to bottom right, $primary-one, $primary-two)
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+
+main
+	text-align: center
+	color: $dark-jungle
+	margin: 0 auto
+	position: absolute
+	top: 50vh
+	left: 50vw
+	transform: translate(-50%, -50%)
+
+	#countdown
+		margin: 20px 0px
+
+	.counter
+		background-color: $white-lilac
+		border-radius: 8px
+		display: inline-block
+		padding: 15px 10px
+		margin: 0 5px 10px 0
+		width: 90px
+
+	.counterNumber
+		display: block
+	
+	.counterText
+		text-transform: uppercase
+
+footer
+	text-align: center
+	color: $white-lilac
+	padding: 50px 0
+	position: absolute
+	left: 0
+	bottom: 0
+	width: 100vw

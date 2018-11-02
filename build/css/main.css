@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,700,900");
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+    max-width-height: auto; }
+
+h1, h2, h3, .counterNumber, .counterText {
+  font-family: "Rubik", sans-serif; }
+
+h1 {
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase; }
+
+h2 {
+  font-weight: 300;
+  font-size: 30px; }
+
+h3 {
+  font-weight: 400;
+  font-size: 16px; }
+
+.counterNumber {
+  font-weight: 700;
+  font-size: 36px; }
+
+.counterText {
+  font-weight: 400;
+  font-size: 12px; }
+
+body {
+  background: -webkit-gradient(linear, left top, right bottom, from(#C2B9B0), to(#5EA2C4));
+  background: -webkit-linear-gradient(top left, #C2B9B0, #5EA2C4);
+  background: -o-linear-gradient(top left, #C2B9B0, #5EA2C4);
+  background: linear-gradient(to bottom right, #C2B9B0, #5EA2C4);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh; }
+
+main {
+  text-align: center;
+  color: #1F1F1F;
+  margin: 0 auto;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  main #countdown {
+    margin: 20px 0px; }
+  main .counter {
+    background-color: #EAEAEA;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 15px 10px;
+    margin: 0 5px 10px 0;
+    width: 90px; }
+  main .counterNumber {
+    display: block; }
+  main .counterText {
+    text-transform: uppercase; }
+
+footer {
+  text-align: center;
+  color: #EAEAEA;
+  padding: 50px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw; }
